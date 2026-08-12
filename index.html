@@ -5,18 +5,68 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Açougue e Empório do Giovani</title>
 <style>
-*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Arial,sans-serif;background:#f4f1ec;display:flex;justify-content:center;align-items:center;padding:24px;color:#222}.card{width:100%;max-width:430px;background:#fff;border-radius:24px;padding:34px 24px;box-shadow:0 10px 35px rgba(0,0,0,.12);text-align:center}h1{margin:0 0 8px;font-size:28px}p{margin:0 0 26px;color:#666}a{display:block;text-decoration:none;color:#fff;background:#222;margin:13px 0;padding:17px 18px;border-radius:14px;font-size:17px;font-weight:bold}small{display:block;margin-top:24px;color:#999}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,sans-serif}
+body{
+  min-height:100vh;
+  padding:32px 18px 40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  background:
+    linear-gradient(rgba(0,0,0,.48),rgba(0,0,0,.48)),
+    url("fundo_acougue_giovani.jpg") center center/cover fixed no-repeat;
+}
+.card{
+  width:100%;
+  max-width:640px;
+  text-align:center;
+}
+h1{
+  margin:0 0 10px;
+  font-size:clamp(34px,8vw,54px);
+  line-height:1.08;
+  text-shadow:0 2px 8px rgba(0,0,0,.75);
+}
+p{
+  margin:0 0 30px;
+  font-size:clamp(22px,5vw,30px);
+  text-shadow:0 2px 6px rgba(0,0,0,.75);
+}
+a{
+  display:block;
+  margin:14px 0;
+  padding:19px 20px;
+  border:1px solid rgba(255,255,255,.28);
+  border-radius:18px;
+  background:rgba(0,0,0,.62);
+  color:#fff;
+  text-decoration:none;
+  font-size:clamp(20px,5vw,27px);
+  font-weight:700;
+  box-shadow:0 4px 14px rgba(0,0,0,.25);
+  backdrop-filter:blur(3px);
+  transition:.2s;
+}
+a:hover{transform:translateY(-2px);background:rgba(0,0,0,.72)}
+small{
+  display:block;
+  margin-top:30px;
+  font-size:18px;
+  text-shadow:0 2px 6px rgba(0,0,0,.8);
+}
 </style>
 </head>
 <body>
 <div class="card">
-<h1>Açougue e Empório do Giovani</h1>
-<p>Escolha uma opção</p>
-<a href="https://maps.app.goo.gl/tHa6JxCHSxT23adF6?g_st=ic" target="_blank">📍 Endereço</a>
-<a href="https://wa.me/553599243459" target="_blank">📱 WhatsApp</a>
-<a href="https://canva.link/k12fa4yq8wiz8h8" target="_blank">🥩 Nosso Cardápio</a>
-<a href="https://www.instagram.com/acouguedogiovani?igsh=MTRzMXA1ZjY1NXE4cQ%3D%3D&utm_source=qr" target="_blank">📸 Instagram</a>
-<small>Açougue e Empório do Giovani</small>
+  <h1>Açougue e Empório<br>do Giovani</h1>
+  <p>Escolha uma opção</p>
+  <a href="https://maps.app.goo.gl/tHa6JxCHSxT23adF6?g_st=ic" target="_blank" rel="noopener">📍 Endereço</a>
+  <a href="https://wa.me/553599243459" target="_blank" rel="noopener">📱 WhatsApp</a>
+  <a href="https://canva.link/k12fa4yq8wiz8h8" target="_blank" rel="noopener">🥩 Nosso Cardápio</a>
+  <a href="https://www.instagram.com/acouguedogiovani?igsh=MTRzMXA1ZjY1NXE4cQ%3D%3D&utm_source=qr" target="_blank" rel="noopener">📸 Instagram</a>
+  <small>Açougue e Empório do Giovani</small>
 </div>
 </body>
 </html>
